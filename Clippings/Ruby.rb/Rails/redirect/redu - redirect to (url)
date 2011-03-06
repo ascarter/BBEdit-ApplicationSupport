@@ -1,0 +1,1 @@
+redirect_to( "#SELSTART#http://www.example.com/#SELEND#" )

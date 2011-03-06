@@ -1,0 +1,5 @@
+<ul>
+	<li>#selectionorinsertion#</li>
+	<li>#placeholderstart#list item#placeholderend#</li>
+</ul>
+#indent##inline#

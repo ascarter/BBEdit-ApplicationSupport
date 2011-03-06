@@ -1,0 +1,7 @@
+#indent#
+function #placeholderstart#function name#placeholderend# ()
+{
+    $result = #placeholderstart#true/false#placeholderend#;
+    #insertion#
+    return $result;
+}

@@ -1,0 +1,5 @@
+#INDENT#
+min( function( value, index ) {
+	#SELSTART#/*test value, return something, lowest
+	return value is final result of min*/#SELEND#
+} );

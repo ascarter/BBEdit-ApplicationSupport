@@ -1,0 +1,1 @@
+<%= form_tag( :action => "#SELSTART#update#SELEND#", :method => "#PLACEHOLDERSTART#post#PLACEHOLDEREND#", :multipart => #PLACEHOLDERSTART#false#PLACEHOLDEREND# ) %>

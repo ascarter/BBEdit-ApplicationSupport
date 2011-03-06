@@ -1,0 +1,5 @@
+#INDENT#
+verify( :only => [#SELSTART#:action, :symbol, :list#SELEND#],
+        :session => [#PLACEHOLDERSTART#:user#PLACEHOLDEREND#],
+        :params => [#PLACEHOLDERSTART#:id#PLACEHOLDEREND#],
+        :redirect_to => {:action => "#PLACEHOLDERSTART#index#PLACEHOLDEREND#"} )

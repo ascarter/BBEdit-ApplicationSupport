@@ -1,0 +1,3 @@
+#indent#for (#placeholderstart#initialization#placeholderend#; #placeholderstart#condition#placeholderend#; #placeholderstart#iteration#placeholderend#) {
+	#placeholderstart#code#placeholderend#
+}

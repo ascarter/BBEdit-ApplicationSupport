@@ -1,0 +1,6 @@
+#INDENT#
+inject( #SELSTART#initialValue#SELEND#, function( accumulator, value, index ) {
+	#PLACEHOLDERSTART#accumulator += ", " + value;#PLACEHOLDEREND# // append value (or anything) to accumulator
+	
+	return accumulator;
+} );

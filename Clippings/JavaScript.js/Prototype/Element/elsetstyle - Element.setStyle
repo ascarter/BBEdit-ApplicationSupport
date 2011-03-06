@@ -1,0 +1,1 @@
+Element.setStyle( #SELSTART#element#SELEND#, #PLACEHOLDERSTART#style#PLACEHOLDEREND# )

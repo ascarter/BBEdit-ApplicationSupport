@@ -1,0 +1,3 @@
+#indent#if [ #placeholderstart#test#placeholderend# ]; then
+	#placeholderstart#code#placeholderend#
+fi

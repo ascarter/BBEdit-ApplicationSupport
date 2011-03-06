@@ -1,0 +1,3 @@
+#indent#while [ #placeholderstart#test#placeholderend# ]; do
+	#placeholderstart#code#placeholderend#
+done

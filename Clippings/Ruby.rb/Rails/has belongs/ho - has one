@@ -1,0 +1,1 @@
+has_one( :#SELSTART#object#SELEND#, :class_name => "#PLACEHOLDERSTART#ClassName#PLACEHOLDEREND#", :foreign_key => "#PLACEHOLDERSTART#object_id#PLACEHOLDEREND#" )

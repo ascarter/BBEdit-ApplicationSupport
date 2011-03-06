@@ -1,0 +1,8 @@
+#indent#
+if (#placeholderstart#$x == $y#placeholderend#) {
+    #insertion#
+} elseif (#placeholderstart#$x == $y#placeholderend#) {
+    #insertion#
+} else {
+    #insertion#
+}

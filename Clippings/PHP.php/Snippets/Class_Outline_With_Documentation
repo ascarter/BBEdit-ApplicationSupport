@@ -1,0 +1,60 @@
+#indent#
+// documented using http://phpdocu.sourceforge.net/
+
+/**
+  * This is the short description, which ends with a period and consists of only one line.
+
+  * This is the long description. It can consist of a number of lines
+  * and can include a sub-site of HTML tags.
+  
+  * @author Ted Stresen-Reuter <tedmasterweb@mac.com>
+  * @package #selectstart#User#selectend#
+  
+  */
+Class User
+{
+
+    /**
+    *   Constructs a new User.
+    *   
+    *   @use USER_TABLE_DEF
+    */
+    var $myVar="";
+
+
+
+
+    /**
+      * This is the short description of the function.
+      
+      * This is the long description
+      
+      * @param mixed $user optional description of foo
+      * @return string de-html_entitied string (no entities at all)
+      
+      */
+    function User()
+    {
+        global $USER_TABLE_DEF ;
+    }
+
+
+
+
+    /**
+    *   Replies if the current user is same as
+    *   the specified user.
+    *
+    *   @package is the User class
+    *   @function is the sameuser function
+    *   @param object user is the user
+    *   @return <code>TRUE</code> if
+    *       the specified user is the same
+    *       as the current.
+    */
+    
+    function sameuser( $user )
+    {
+        return FALSE ;
+    }
+}

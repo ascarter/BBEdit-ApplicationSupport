@@ -1,0 +1,5 @@
+<select name="#placeholderstart#name#placeholderend#">
+	<option>#selectionorplaceholder option#</option>
+	<option>#placeholderstart#option#placeholderend#</option>
+</select>
+#indent##inline#

@@ -1,0 +1,4 @@
+#indent#for i in #placeholderstart#list#placeholderend#
+do
+	#placeholderstart#code using $i#placeholderend#
+done

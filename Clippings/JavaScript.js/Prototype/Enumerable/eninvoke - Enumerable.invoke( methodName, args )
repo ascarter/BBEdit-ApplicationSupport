@@ -1,0 +1,1 @@
+#SELSTART#arrayResult#SELEND# = #PLACEHOLDERSTART#enumName#PLACEHOLDEREND#.invoke( #PLACEHOLDERSTART#methodName#PLACEHOLDEREND#, #PLACEHOLDERSTART#params, passed, to, each, element.methodName#PLACEHOLDEREND# );

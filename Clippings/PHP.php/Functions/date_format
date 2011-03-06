@@ -1,0 +1,2 @@
+#indent#
+date_format(#placeholderstart# DateTime object #placeholderend##script call date format dialog.scpt#)#placeholderstart# ; #placeholderend#

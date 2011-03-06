@@ -1,0 +1,2 @@
+#indent#
+#selstart#variable#selend# = (#placeholderstart# condition to test #placeholderend# ? #placeholderstart# true #placeholderend# : #placeholderstart# false #placeholderend#)#placeholderstart# ; #placeholderend#

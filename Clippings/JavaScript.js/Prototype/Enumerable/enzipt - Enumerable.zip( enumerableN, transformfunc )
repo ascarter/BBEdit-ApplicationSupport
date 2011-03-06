@@ -1,0 +1,7 @@
+zip( #SELSTART#enumerable1#SELEND#, #PLACEHOLDERSTART#enumerable2, enumerableN...,#PLACEHOLDEREND# function( value, index )
+{
+	/* value is an enumerable, a "sub array". Process it,
+	transform it, compute some value... whatever you return
+	will replace value in the final, merged array */
+	return value
+} );

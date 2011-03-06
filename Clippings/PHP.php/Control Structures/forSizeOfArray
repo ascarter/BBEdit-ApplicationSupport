@@ -1,0 +1,6 @@
+#indent#
+#selstart# // We count the number of items first so we don't end up counting on every iteration - they claim this is faster... #selend#
+#placeholderstart# $total_records_variable #placeholderend# = count( #placeholderstart# variable to iterate over #placeholderend# );
+for ($i = 0; $i < #placeholderstart# $total_records_variable #placeholderend#; $i++) {
+    #insertion#
+}

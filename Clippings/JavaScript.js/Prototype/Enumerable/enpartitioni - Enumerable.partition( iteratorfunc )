@@ -1,0 +1,8 @@
+#INDENT#
+partition( function( value, index ) {
+	#SELSTART#/*test value, return true to include
+	value in result[ 0 ], return anything else to
+	include value in result[ 1 ].
+	
+	final result is array of two arrays*/#SELEND#
+} );

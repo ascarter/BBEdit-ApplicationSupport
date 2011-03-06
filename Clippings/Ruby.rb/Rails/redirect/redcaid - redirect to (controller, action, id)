@@ -1,0 +1,1 @@
+redirect_to( :controller => "#SELSTART#items#SELEND#", :action => "#PLACEHOLDERSTART#show#PLACEHOLDEREND#", :id => #PLACEHOLDERSTART#5#PLACEHOLDEREND# )

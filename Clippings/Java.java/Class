@@ -1,0 +1,68 @@
+package ch.entropy.packagename;
+
+import java.io.*;
+
+/**
+ * #SELECT# is blah blah and does blah blah.
+ * Blah blah, blah blah blah.
+ * <p>
+ * Blah.
+ * 
+ * @author    #NAME#
+ * @version   $Id: Class,v 1.1 2004/11/05 21:57:56 liyanage Exp $
+ */
+public class #SELECT# {
+
+
+	/** 
+	 * Constructor
+	 */
+	public #SELECT#() {
+	
+		#INSERTION#
+	}
+
+
+	/** 
+	 * Overloaded constructor with blah blah.
+	 */
+	public #SELECT#(int i) {
+	
+	}
+
+
+	/** 
+	 * Does something really useful.
+	 * <p>
+	 * Blah blah {@link AnotherClass} blah blah.
+	 *
+	 * @param arg1    the first parameter
+	 * @param arg2    the second parameter
+	 * @return        <code>true</code> if something,  
+	 *                <code>false</code> otherwise.
+	 */
+	public boolean doSomething(String arg1, String arg2) {
+    
+		return true;
+    	
+	}
+
+
+
+	/** 
+	 * Main method for command-line invocation.
+	 *
+	 * @param argv    the argument String array
+	 */
+	public static void main (String argv[]) {
+		
+		#SELECT# ref = new #SELECT#();
+		
+		System.out.println("ref: " + ref);
+		
+	}
+
+
+
+}
+

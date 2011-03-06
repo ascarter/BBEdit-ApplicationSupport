@@ -1,0 +1,1 @@
+<%= link_to( "#SELSTART#link text#SELEND#", "#PLACEHOLDERSTART#/path/to/visit#PLACEHOLDEREND#" ) %>

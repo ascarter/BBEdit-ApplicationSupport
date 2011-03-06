@@ -1,0 +1,1 @@
+Element.removeClassName( #SELSTART#element#SELEND#, #PLACEHOLDERSTART#className#PLACEHOLDEREND# )

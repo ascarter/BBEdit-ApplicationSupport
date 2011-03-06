@@ -1,0 +1,14 @@
+#indent#case #placeholderstart#expression#placeholderend# in
+
+	#placeholderstart#match pattern#placeholderend#)
+		#placeholderstart#commands#placeholderend#
+		;;
+
+	#placeholderstart#match pattern#placeholderend# | #placeholderstart#match pattern#placeholderend#)
+		#placeholderstart#commands#placeholderend#
+		;;
+
+	*)
+		#placeholderstart#default commands#placeholderend#
+		;;
+esac

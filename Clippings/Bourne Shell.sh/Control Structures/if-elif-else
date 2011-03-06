@@ -1,0 +1,7 @@
+#indent#if [ #placeholderstart#test#placeholderend# ]; then
+	#placeholderstart#code#placeholderend#
+elif [ #placeholderstart#test#placeholderend# ]; then
+	#placeholderstart#code#placeholderend#
+else
+	#placeholderstart#code#placeholderend#
+fi

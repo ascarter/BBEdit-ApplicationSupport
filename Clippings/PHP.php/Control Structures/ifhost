@@ -1,0 +1,9 @@
+#indent#
+if ( eregi ( "\\.(com|biz|net|org)$", $_SERVER['HTTP_HOST'] ) )
+{
+    #insertion#
+}
+else
+{
+    #insertion#
+}

@@ -1,0 +1,4 @@
+#indent#
+while (#selstart#true expression#selend#) {
+    #insertion#
+}

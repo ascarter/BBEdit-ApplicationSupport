@@ -1,0 +1,2 @@
+#indent#
+#placeholderstart# DateTime #placeholderend#->createFromFormat(#script call date format dialog.scpt##placeholderstart#, string time #placeholderend##placeholderstart#[, DateTimeZone timezone ]#placeholderend#)#placeholderstart# ; #placeholderend#

@@ -1,0 +1,5 @@
+#INDENT#
+create_table( :#SELSTART#table_name#SELEND# ) do |t|
+  t.column( :#PLACEHOLDERSTART#col_name#PLACEHOLDEREND#, :#PLACEHOLDERSTART#col_type#PLACEHOLDEREND# )
+  mcc2#INSERTION#
+end

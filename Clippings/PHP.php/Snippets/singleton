@@ -1,0 +1,10 @@
+#indent#
+public static function singleton (#placeholderstart# params #placeholderend#)
+{
+	if (!isset(self::$instance)) {
+		$c = __CLASS__;
+		self::$instance = new $c(#placeholderstart# params #placeholderend#);
+	}
+	
+	return self::$instance;
+}

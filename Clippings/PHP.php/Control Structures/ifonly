@@ -1,0 +1,4 @@
+#indent#
+if (#placeholderstart#$x == $y#placeholderend#) {
+    #insertion#
+}

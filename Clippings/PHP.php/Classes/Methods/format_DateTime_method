@@ -1,0 +1,2 @@
+#indent#
+#placeholderstart# DateTime #placeholderend#->format(#script call date format dialog.scpt#)#placeholderstart# ; #placeholderend#

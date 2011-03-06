@@ -1,0 +1,4 @@
+#indent#
+while (list($key, $value) = each(#selstart#Array#selend#)) {
+    #insertion#
+}

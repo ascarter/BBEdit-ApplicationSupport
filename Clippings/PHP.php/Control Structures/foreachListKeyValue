@@ -1,0 +1,5 @@
+#indent#
+foreach ( #selstart#array#selend# as $key=>$value )
+{
+    
+}

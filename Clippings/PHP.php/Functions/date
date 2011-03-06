@@ -1,0 +1,2 @@
+#indent#
+date(#script call date format dialog.scpt##placeholderstart#[, int timestamp ]#placeholderend#)#placeholderstart# ; #placeholderend#

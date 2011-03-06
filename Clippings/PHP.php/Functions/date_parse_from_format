@@ -1,0 +1,2 @@
+#indent#
+date_parse_from_format(#script call date format dialog.scpt##placeholderstart#, string date #placeholderend#)#placeholderstart# ; #placeholderend#
