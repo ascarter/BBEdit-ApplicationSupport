@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!--
+	BBEdit codeless language module for diff output.
+	Feel free to customize.
+
+	This works with the two most common diff types, normal and unified.
+	The previous version is colorized with the "string" colorization,
+	and the new version is colorized with the "comment" colorization.
+
+	After installing and relaunching, I suggest you go to Preferences ->
+	Languages -> Installed Languages -> Diff Output -> Options... ->
+	Colors, and change Comments to green and String Constants to red.
+	Or something.
+
+	This also will attempt to find individual patches for the function
+	popup.  This may result in some duplication in the popup, but
+	quit your crying.
+
+	2008-07-11
+	http://pudge.net/
+
+	Requires BBEdit 8.0 or higher. To install, copy here:
+
+		~/Library/Application Support/BBEdit/Language Modules/
+
+	and relaunch BBEdit.
+
+
+-->
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	<key>BBLMLanguageCode</key>
+	<string>Diff</string>
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	<key>BBLMIsCaseSensitive</key>
+	<true/>
+	<key>BBLMLanguageDisplayName</key>
+	<string>Diff Output</string>
+	<key>BBLMScansFunctions</key>
+	<true/>
+
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.patch</string>
+		</dict>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.diff</string>
+		</dict>
+	</array>
+
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>@@</string>
+	</array>
+
+	<key>Language Features</key>
+	<dict>
+		<key>Function Pattern</key>
+		<string>^(?:(?:commit|diff|\+\+\+).*?[\s/\\:](?P&lt;function_name&gt;\w[^\s/\\:~]+))(?:~|\s|$)</string>
+		<key>String Pattern</key>
+		<string>^(?:-|&lt; |>>>|--- ).*?$</string>
+		<key>Comment Pattern</key>
+		<string>^(?:\+|&gt; |\+\+\+ ).*?$</string>
+		<key>Identifier and Keyword Characters</key>
+		<string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz@.</string>
+	</dict>
+</dict>
+</plist>
