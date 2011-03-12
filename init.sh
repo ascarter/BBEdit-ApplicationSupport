@@ -20,12 +20,11 @@ mkdir -p HTML Templates
 mkdir -p Text Factories
 mkdir -p Clippings/Universal Items
 
-
-# Link preferences plist
+# Update preferences plist
 PREFS_FILE=com.barebones.bbedit.plist
 
 if [ -f ~/Library/Preferences/${PREFS_FILE} ]; then
      mv ~/Library/Preferences/${PREFS_FILE} ~/Library/Preferences/${PREFS_FILE}.old
 fi
 
-ln ~/Library/Application\ Support/BBEdit/${PREFS_FILE} ~/Library/Preferences/${PREFS_FILE}
+cp ./${PREFS_FILE} ~/Library/Preferences/${PREFS_FILE}
