@@ -19,12 +19,3 @@ mkdir -p Stationery
 mkdir -p HTML Templates
 mkdir -p Text Factories
 mkdir -p Clippings/Universal Items
-
-# Update preferences plist
-PREFS_FILE=com.barebones.bbedit.plist
-
-if [ -f ~/Library/Preferences/${PREFS_FILE} ]; then
-     mv ~/Library/Preferences/${PREFS_FILE} ~/Library/Preferences/${PREFS_FILE}.old
-fi
-
-cp ./${PREFS_FILE} ~/Library/Preferences/${PREFS_FILE}
