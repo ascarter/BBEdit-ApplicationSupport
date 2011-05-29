@@ -1,0 +1,8 @@
+#indent#<xsl:choose>
+	<xsl:when test="#placeholderstart#boolean expression#placeholderend#">
+		#script selectOrCode.scpt#
+	</xsl:when>
+	<xsl:otherwise>
+		#placeholderstart#code#placeholderend#
+	</xsl:otherwise>
+</xsl:choose>

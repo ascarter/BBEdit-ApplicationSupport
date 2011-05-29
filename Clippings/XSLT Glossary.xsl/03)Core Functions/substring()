@@ -1,0 +1,1 @@
+substring(#script selectOrString.scpt#, #placeholderstart#start numeric expression#placeholderend#, #placeholderstart#end numeric expression#placeholderend#)

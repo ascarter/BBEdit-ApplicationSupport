@@ -1,0 +1,1 @@
+<xsl:apply-templates select="#script selectOrXpath.scpt#"#script mode.scpt#/>

@@ -1,0 +1,3 @@
+#indent#<xsl:apply-templates select="#script selectOrXpath.scpt#"#script mode.scpt#>
+	<xsl:with-param name="#insertion#" select="#placeholderstart#xpath|value#placeholderend#"/>
+</xsl:apply-templates>

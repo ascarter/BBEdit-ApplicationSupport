@@ -1,0 +1,1 @@
+<xsl:variable name="#script selectOrInsertion.scpt#" select="#placeholderstart#xpath|value#placeholderend#" />

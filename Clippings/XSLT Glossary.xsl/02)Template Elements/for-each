@@ -1,0 +1,3 @@
+#indent#<xsl:for-each select="#placeholderstart#xpath#placeholderend#">
+	#script selectOrCode.scpt#
+</xsl:for-each>

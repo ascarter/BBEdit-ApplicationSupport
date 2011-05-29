@@ -1,0 +1,1 @@
+<xsl:attribute name="#select##insertion#">#placeholderstart#value#placeholderend#</xsl:attribute>
