@@ -1,0 +1,1 @@
+#INDENT#self.assertIsNotNone(#PLACEHOLDERSTART#actual#PLACEHOLDEREND#)
