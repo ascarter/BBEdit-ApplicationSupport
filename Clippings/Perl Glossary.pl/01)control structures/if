@@ -1,0 +1,3 @@
+#INDENT#if (#placeholderstart#condition#placeholderend#) {
+	#placeholderstart#code#placeholderend#
+}

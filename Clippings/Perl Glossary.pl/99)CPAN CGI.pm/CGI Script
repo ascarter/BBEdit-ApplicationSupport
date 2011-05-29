@@ -1,0 +1,26 @@
+#!/usr/bin/env perl
+#
+# #placeholderstart#comments#placeholderend#
+#
+
+use strict;
+use warnings;
+
+use Data::Dumper;
+use CGI;
+
+
+my $cgi = CGI->new();
+
+print $cgi->header('text/plain');
+print "Hello World\n";
+
+
+foreach my $parameter_name ($cgi->param()) {
+	
+	my $parameter_value = $cgi->param($parameter_name);
+	print "$parameter_name => $parameter_value\n";
+
+}
+
+

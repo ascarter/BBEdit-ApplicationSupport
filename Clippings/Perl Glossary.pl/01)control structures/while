@@ -1,0 +1,3 @@
+#INDENT#while (#placeholderstart#condition#placeholderend#) {
+	#placeholderstart#code#placeholderend#
+}

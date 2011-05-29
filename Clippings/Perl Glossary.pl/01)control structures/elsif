@@ -1,0 +1,7 @@
+#INDENT#if (#placeholderstart#condition#placeholderend#) {
+	#placeholderstart#code#placeholderend#
+} elsif (#placeholderstart#condition#placeholderend#) {
+	#placeholderstart#code#placeholderend#
+} else {
+	#placeholderstart#code#placeholderend#
+}

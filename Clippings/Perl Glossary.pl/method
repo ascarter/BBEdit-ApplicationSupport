@@ -1,0 +1,8 @@
+#INDENT#sub #placeholderstart#name#placeholderend# {
+
+	my $self = shift @_;
+	my (#placeholderstart#parameters#placeholderend#) = @_;
+	
+	return undef;
+
+}
