@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+BBEdit Language Module for CoffeeScript
+
+Put this file in 
+   ~/Library/Application Support/BBEdit/Language Modules
+or equivalent.
+
+Based off of the examples shipped in the BBEdit SDK.
+-->
+<plist version="1.0">
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>CoffeeScript</string>
+	<key>BBLMLanguageCode</key>
+	<string>CoSc</string>
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	<key>BBLMScansFunctions</key>
+	<true/>
+	<key>BBLMIsCaseSensitive</key>
+	<true/>
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>if</string>
+		<string>for</string>
+		<string>in</string>
+		<string>then</string>
+		<string>else</string>
+		<string>or</string>
+		<string>of</string>
+		<string>while</string>
+		<string>until</string>
+		<string>do</string>
+		<string>try</string>
+		<string>catch</string>
+		<string>is</string>
+		<string>isnt</string>
+		<string>unless</string>
+		<string>and</string>
+		<string>not</string>
+		<string>class</string>
+		<string>extends</string>
+		<string>super</string>
+		<string>new</string>
+		<string>this</string>
+		<string>switch</string>
+		<string>when</string>
+		<string>finally</string>
+	</array>
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.cs</string>
+		</dict>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.coffee</string>
+		</dict>
+	</array>
+	<key>Language Features</key>
+	<dict>
+		<key>Identifier and Keyword Character Class</key>
+		<string>0-9A-Z_a-z</string>
+
+		<key>Comment Pattern</key>
+		<string>(?x:
+			(?&gt;	\(	                                    )	|
+			(?&gt;	\)                                      )	|
+			(?&gt;	\[	                                    )	|
+			(?&gt;	\]	                                    )	|
+			(?&gt;	\{	                                    )	|
+			(?&gt;	\}	                                    )	|
+			(?&gt;	\:	                                    )	|
+			(?&gt;	\@	                                    )	|
+			(?&gt;	-&gt;	                                )	|
+			(?&gt;	\#		.*			$				 ) |
+			(?&gt;	\#\#\#	(?s:.*?)	(?: \#\#\# | \z ))
+		)</string>
+
+		<key>String Pattern</key>
+		<string>(?x:
+			(?&gt;	`	(?s: \\. | [^`] )*?		(?: `   )	)	|
+			(?&gt;	///	(?s: \\. | [^/] )*?		(?: /// )	)	|
+			(?&gt;	"""	(?s: \\. | [^"] )*?		(?: """ )	)	|
+			(?&gt;	'''	(?s: \\. | [^'] )*?		(?: ''' )	)	|
+			(?&gt;	"	(?s: \\. | [^"] )*?		(?: "   )	)	|
+			(?&gt;	'	(?s: \\. | [^'] )*?		(?: '   )	)
+		)</string>
+	</dict>
+</dict>
+</plist>
