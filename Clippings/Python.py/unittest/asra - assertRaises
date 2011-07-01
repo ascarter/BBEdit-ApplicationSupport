@@ -1,0 +1,2 @@
+#INDENT#with self.assertRaises(#PLACEHOLDERSTART#exception#PLACEHOLDEREND#):
+    #PLACEHOLDERSTART#testbody#PLACEHOLDEREND#
