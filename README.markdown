@@ -1,12 +1,16 @@
 BBEdit Application Support
 ==========================
 
-BBEdit extensions, tags, scripts, and other helpers.
+BBEdit language modules, clippings, scripts and customizations.
+
+I use BBEdit's Dropbox support. I maintain my customizations in this git repository. When I want to push my changes to my BBEdit install, I use the Rake installer to copy them.
+
+The Rakefile will prefer Dropbox but will fall back to the local `~/Library/Application Support` if Dropbox is not found.
 
 # Install
 
-	git clone git@github.com:ascarter/BBEdit-ApplicationSupport.git ~/Library/Application\ Support/BBEdit
-	cd ~/Library/Application\ Support/BBEdit
-	./init.sh
+	git clone git@github.com:ascarter/BBEdit-ApplicationSupport.git
+	cd BBEdit-ApplicationSupport
+	rake install
 
-The `init.sh` script will create all the empty directories for BBEdit's support directory if they don't already exist.
+The `rakefile` script will create empty directories for the components if they do not exist in the BBEdit support directory. It will also prompt you to decide if you want to override existing files or not.
