@@ -1,6 +1,0 @@
-#INDENT#
-Try.these(
-	#SELSTART#function() { ... },
-	foo.bar.bind(),
-	this.bat.bind()#SELEND#
-    )

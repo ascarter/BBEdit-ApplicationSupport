@@ -1,3 +1,0 @@
-#indent#until [ #placeholderstart#test#placeholderend# ]; do
-	#placeholderstart#code#placeholderend#
-done

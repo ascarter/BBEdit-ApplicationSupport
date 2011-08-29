@@ -1,4 +1,0 @@
-#indent#
-do {
-    #placeholderstart#blocks to execute#placeholderend#
-} while (#selstart#true expression#selend#);

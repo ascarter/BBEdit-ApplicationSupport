@@ -1,3 +1,0 @@
-#indent#<xsl:otherwise>
-	#script selectOrCode.scpt#
-</xsl:otherwise>

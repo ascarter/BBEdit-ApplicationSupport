@@ -1,4 +1,0 @@
-#indent#
-for ($i = 0; $i < #selstart#$someNumber#selend#; $i++) {
-    #insertion#
-}

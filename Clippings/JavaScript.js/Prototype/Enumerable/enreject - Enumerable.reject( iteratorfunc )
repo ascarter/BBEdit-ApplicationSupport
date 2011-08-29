@@ -1,5 +1,0 @@
-#INDENT#
-reject( function( value, index ) {
-	#SELSTART#/* test value, return false to include
-	this value in the new result array */#SELEND#
-} );

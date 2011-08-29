@@ -1,7 +1,0 @@
-#INDENT#
-sortBy( function( value, index ) {
-	#SELSTART#/* return something, such as a property of value,
-	that will be used to compare with the other values
-	in the array. result is a new, sorted array. */#SELEND#
-	return value.#PLACEHOLDERSTART#name#PLACEHOLDEREND#;
-} );

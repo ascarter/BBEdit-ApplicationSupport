@@ -1,1 +1,0 @@
-substring-after(#script selectOrString.scpt#, #placeholderstart#inital string expression#placeholderend#)

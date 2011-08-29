@@ -1,4 +1,0 @@
-#INDENT#
-each( function( #SELSTART#value#SELEND#, index ) {
-	#INSERTION#
-} );

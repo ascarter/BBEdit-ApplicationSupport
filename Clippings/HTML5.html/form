@@ -1,5 +1,0 @@
-<form method="#placeholderstart#get_or_post#placeholderend#" action="#placeholderstart#URI#placeholderend#">
-	#placeholderstart#form content#placeholderend#
-	<input type="submit">
-</form>
-#indent##inline#

@@ -1,5 +1,0 @@
-#INDENT#
-findAll( function( value, index ) {
-	#SELSTART#/*test value, return true to include
-	this value in the new result array*/#SELEND#
-} );

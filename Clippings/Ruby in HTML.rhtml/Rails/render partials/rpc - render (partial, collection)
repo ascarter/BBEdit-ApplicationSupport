@@ -1,1 +1,0 @@
-<%= render( :partial => "#SELSTART#name_of_partial#SELEND#", :collection => #PLACEHOLDERSTART#@collection#PLACEHOLDEREND# ) %>

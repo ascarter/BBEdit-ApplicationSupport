@@ -1,1 +1,0 @@
-bindAsEventListener( #SELSTART#obj#SELEND# )

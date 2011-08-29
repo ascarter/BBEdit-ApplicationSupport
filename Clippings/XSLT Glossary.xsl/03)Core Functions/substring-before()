@@ -1,1 +1,0 @@
-substring-before(#script selectOrString.scpt#, #placeholderstart#final string expression#placeholderend#)

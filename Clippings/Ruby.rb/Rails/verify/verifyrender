@@ -1,4 +1,0 @@
-#INDENT#
-verify( :only => [#SELSTART#:action, :list#SELEND#],
-        :method => :post,
-        :render => {:status => 500, :text => "use HTTP-POST"} )

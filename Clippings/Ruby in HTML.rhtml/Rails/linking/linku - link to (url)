@@ -1,1 +1,0 @@
-<%= link_to( "#SELSTART#link text#SELEND#", "#PLACEHOLDERSTART#http://www.example.com/#PLACEHOLDEREND#" ) %>

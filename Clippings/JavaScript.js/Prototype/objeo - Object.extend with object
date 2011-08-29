@@ -1,2 +1,0 @@
-#INDENT#
-Object.extend( #SELSTART#classToExtend#SELEND#, #PLACEHOLDERSTART#mixInObject#PLACEHOLDEREND# );

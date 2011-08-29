@@ -1,1 +1,0 @@
-<xsl:sort select="#script selectOrXpath.scpt#" data-type="number" order="ascending"/>

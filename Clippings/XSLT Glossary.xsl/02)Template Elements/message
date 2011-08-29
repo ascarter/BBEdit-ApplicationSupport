@@ -1,3 +1,0 @@
-#indent#<xsl:message terminate="#selstart#yes#selend#">
-	#script selectOrCode.scpt#
-</xsl:message>

@@ -1,3 +1,0 @@
-#INDENT#foreach my $#placeholderstart#loop variable#placeholderend# (#placeholderstart#list#placeholderend#) {
-	#placeholderstart#code#placeholderend#
-}

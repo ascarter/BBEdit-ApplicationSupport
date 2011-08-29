@@ -1,1 +1,0 @@
-<%= link_to( "#SELSTART#link text#SELEND#", :action => "#PLACEHOLDERSTART#index#PLACEHOLDEREND#" ) %>

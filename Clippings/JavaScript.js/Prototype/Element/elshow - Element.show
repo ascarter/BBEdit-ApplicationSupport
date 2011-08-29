@@ -1,1 +1,0 @@
-[ #SELSTART#list, your, page, elements, here#SELEND# ].each( Element.show )

@@ -1,7 +1,0 @@
-﻿<div class="vevent">
-	<a class="url" href="#insertion#"><span class="summary">#insertion#</span></a><br><!-- Title of the event -->
-	<span class="dtstart" title="#insertion#"><!-- human-readable date --></span><!-- the dtstart title attribute should be in the format YYYYMMDDTHHMM-00-0, where T remains as a literal T, and -0000 represents a time-zone offset -->
-	<div class="location">#insertion#</div>
-	<div class="description">#insertion#</div>
-</div>
-#indent##inline#

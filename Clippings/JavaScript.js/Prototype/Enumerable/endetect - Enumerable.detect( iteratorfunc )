@@ -1,5 +1,0 @@
-#INDENT#
-detect( function( value, index ) {
-	#SELSTART#/*test value, return true to stop
-	the iteration and return this value*/#SELEND#
-} );

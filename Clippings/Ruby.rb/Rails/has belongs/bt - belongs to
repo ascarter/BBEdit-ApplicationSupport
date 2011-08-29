@@ -1,1 +1,0 @@
-belongs_to( :#SELSTART#object#SELEND#, :class_name => "#PLACEHOLDERSTART#AssociatedClass#PLACEHOLDEREND#", :foreign_key => "#PLACEHOLDERSTART#object_id#PLACEHOLDEREND#" )

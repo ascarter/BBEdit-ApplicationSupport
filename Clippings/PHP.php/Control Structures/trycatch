@@ -1,6 +1,0 @@
-#indent#
-try {
-	#placeholderstart# PHP statements to try #placeholderend#
-} catch(exception $e) {
-	#placeholderstart# what to do if any statements fail #placeholderend#
-}

@@ -1,4 +1,0 @@
-#INDENT#
-all( function( value, index ) {
-	#SELSTART#/*test value, return true or false*/#SELEND#
-} );

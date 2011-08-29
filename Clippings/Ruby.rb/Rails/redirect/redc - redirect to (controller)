@@ -1,1 +1,0 @@
-redirect_to( :controller => "#SELSTART#items#SELEND#" )

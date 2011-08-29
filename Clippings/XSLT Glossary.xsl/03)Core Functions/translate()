@@ -1,1 +1,0 @@
-translate(#script selectOrString.scpt#, #placeholderstart#from string expression#placeholderend#, #placeholderstart#to string expression#placeholderend#)

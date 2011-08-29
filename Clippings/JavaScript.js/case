@@ -1,6 +1,0 @@
-#INDENT#
-case #SELSTART#val#SELEND#:
-	#PLACEHOLDERSTART#code here#PLACEHOLDEREND#;
-	break;
-
-case#INSERTION#

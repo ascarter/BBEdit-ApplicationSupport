@@ -1,1 +1,0 @@
-#INDENT#die "#placeholderstart#message#placeholderend#" unless(#placeholderstart#condition#placeholderend#); # assertion

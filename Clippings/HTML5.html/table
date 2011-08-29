@@ -1,9 +1,0 @@
-<table>
-	<tbody>
-		<tr>
-			<td>#selectionorinsertion#</td>
-			<td>#placeholderstart#table cell#placeholderend#</td>
-		</tr>
-	</tbody>
-</table>
-#indent##inline#

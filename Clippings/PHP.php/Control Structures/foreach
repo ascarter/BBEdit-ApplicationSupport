@@ -1,4 +1,0 @@
-#indent#
-foreach (#selstart#array#selend# as $item) {
-    #insertion#
-}

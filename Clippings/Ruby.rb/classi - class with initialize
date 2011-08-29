@@ -1,8 +1,0 @@
-#INDENT#
-class #SELSTART#ClassName#SELEND# < #PLACEHOLDERSTART#ParentClass#PLACEHOLDEREND#
-	def initialize( #PLACEHOLDERSTART#args#PLACEHOLDEREND# )
-    #INSERTION#
-	end
-	
-	#INSERTION#
-end

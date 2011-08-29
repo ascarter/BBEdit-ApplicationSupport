@@ -1,5 +1,0 @@
-#INDENT#
-max( function( value, index ) {
-	#SELSTART#/*test value, return something, highest
-	return value is final result of min*/#SELEND#
-} );

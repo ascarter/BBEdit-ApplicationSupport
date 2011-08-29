@@ -1,3 +1,0 @@
-#indent#<xsl:copy>
-	#script selectOrInsertion.scpt#
-</xsl:copy>

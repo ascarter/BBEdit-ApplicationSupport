@@ -1,3 +1,0 @@
-#indent#<xsl:if test="#placeholderstart#boolean expression#placeholderend#">
-	#script selectOrCode.scpt#
-</xsl:if>

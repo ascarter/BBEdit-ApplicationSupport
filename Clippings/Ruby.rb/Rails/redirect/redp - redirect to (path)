@@ -1,1 +1,0 @@
-redirect_to( "#SELSTART#/path/to/visit#SELEND#" )

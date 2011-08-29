@@ -1,3 +1,0 @@
-#indent#<xsl:template name="#placeholderstart#name#placeholderend#">
-	#script selectOrCode.scpt#
-</xsl:template>

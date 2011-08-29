@@ -1,8 +1,0 @@
-#indent#<item>
-	<title>#placeholderstart#TITLE#placeholderend#</title>
-	<link>#placeholderstart#LINK#placeholderend#</link>
-	<description>#placeholderstart#DESCRIPTION#placeholderend#</description>
-	<guid isPermaLink="true">#placeholderstart#GUID#placeholderend#</guid>
-	<pubDate>#placeholderstart#DATE#placeholderend#</pubDate>
-</item>
-#placeholderstart#NEXT_ITEM#placeholderend#

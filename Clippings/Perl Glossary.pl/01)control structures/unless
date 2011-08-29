@@ -1,3 +1,0 @@
-#INDENT#unless (#placeholderstart#condition#placeholderend#) {
-	#placeholderstart#code#placeholderend#
-}

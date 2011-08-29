@@ -1,1 +1,0 @@
-Element.addClassName( #SELSTART#element#SELEND#, #PLACEHOLDERSTART#className#PLACEHOLDEREND# )

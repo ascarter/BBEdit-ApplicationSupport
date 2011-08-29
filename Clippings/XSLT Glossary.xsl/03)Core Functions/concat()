@@ -1,1 +1,0 @@
-concat(#script selectOrString.scpt#, #placeholderstart#string expression#placeholderend#)

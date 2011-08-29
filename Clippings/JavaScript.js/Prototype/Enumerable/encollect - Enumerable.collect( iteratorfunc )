@@ -1,5 +1,0 @@
-#INDENT#
-collect( function( value, index ) {
-	#SELSTART#/*do something with value, return a result,
-	all results are collected in new array*/#SELEND#
-} );
