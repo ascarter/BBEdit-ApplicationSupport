@@ -20,9 +20,6 @@ task :install do
     end
   end
   
-  # OVERRIDE
-  appsupport_root = File.expand_path('~/bbtest')
-  
   puts "Installing to #{appsupport_root}"
   
   # Install files
