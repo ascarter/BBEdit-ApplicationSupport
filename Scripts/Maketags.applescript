@@ -11,7 +11,7 @@
 -- To add a shortcut key:
 --
 --	 Window -> Palettes -> Scripts
---	 Select PeepOpen and click Set Key ...
+--	 Select Maketags and click Set Key ...
 --	 Enter a shortcut key combination (recommend Command + Option + T)
 --
 -- Author:  Andrew Carter <ascarter@gmail.com>
