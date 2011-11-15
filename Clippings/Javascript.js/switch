@@ -1,5 +1,5 @@
 #INDENT#
-switch ( #SELSTART#test_value#SELEND# ) {
+switch (#SELSTART#test_value#SELEND#) {
 	case #SELSTART#val#SELEND#:
 		#PLACEHOLDERSTART#code here#PLACEHOLDEREND#;
 		break;

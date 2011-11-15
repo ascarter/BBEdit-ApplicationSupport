@@ -1,4 +1,4 @@
 #INDENT#
-for ( #SELSTART#i = 0; i < max; i++#SELEND# ) {
+for (#SELSTART#i = 0; i < max; i++#SELEND#) {
 	#INSERTION#
 }
