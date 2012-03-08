@@ -8,7 +8,10 @@ desc "Install BBEdit support files to Application Support/BBEdit"
 task :install do
   replace_all = false
   source_root = File.expand_path(File.join(__FILE__, '..'))
-  source_dirs = [ 'Clippings', 'Color Schemes', 'Language Modules', 'Scripts', 'Text Filters' ]
+  source_dirs = [
+    'Clippings', 'Color Schemes', 'Language Modules', 'Preview CSS',
+    'Scripts', 'Text Filters'
+  ]
   home_dir = File.expand_path(ENV['HOME'])
   
   # Find application support directory
